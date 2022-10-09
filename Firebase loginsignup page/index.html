@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/7d2f1770da.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+          <form action="#">
+            <h1>Create Account</h1>
+            <div class="social-media">
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <span class="uptext">or sign up using your email account</span>
+            <input type="text" placeholder="Name" id="name" required>
+            <input type="text" placeholder="Email" id="signup-email" required>
+            <input type="password" placeholder="Password"id="signup-pass" required>
+            <button id="submit">Sign Up</button>
+            
+          </form>
+        </div>
+        <div class="form-container log-in-container">
+          <form action="#">
+            <h1 class="log">Log In</h1>
+            <div class="social-media">
+              <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+              <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <span class="uptext">or sign up using your email account</span>
+            <input type="text" placeholder="Email" id="login-email" required>
+            <input type="password" placeholder="Password" id="login-pass" required>
+            <a href="#">Forgot your password?</a>
+            <button id="login">Sign In</button>
+            
+          </form>
+        </div>
+        <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel left">
+            <h1>Welcome Back!</h1>
+            <p class="para">To keep connected with us please login with your personal info</p>
+            <button class="ghost" id="signIn">Log In</button>          
+          </div>
+          <div class="overlay-panel right">
+            <h1>Hello, Stranger!</h1>
+            <p class="para">Sign up for an account and start your journey now!!</p>
+            <button class="ghost" id="signUp">Sign Up</button>
+          </div>
+          </div>
+          </div>
+      </div>
+    <script src="app.js" type="module"></script>
+    <!-- <script src="new.js" type="module"></script> -->
+</body>
+</html>
